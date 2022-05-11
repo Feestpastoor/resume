@@ -1,0 +1,184 @@
+/*DIV stands for content division element*/
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1  {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+.bottom-container {
+    color: #11999E;
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999e);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999e);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999e);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999e);
+    background-image: linear-gradient(to bottom, #66BFBF, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.middle-container {
+    margin: 100px auto 100px auto;
+}
+
+.profile {
+    width: 30%;
+    margin: auto;
+}
+.pro {
+    text-decoration: underline;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+.Lindsey {
+    width: 200px;
+    height: 200px;
+}
+
+.culicart {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.modified {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+hr { 
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+a { 
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+::selection {
+    color: black;
+    background: #ffd000;
+  }
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px auto;
+  }
+
+/*inline elements only take up as much space as they are wide*/
+/*inline elements can't be width adjusted, block elements can*/
+/*you can change the display property of an element, for example,
+make a block element an inline element by setting the display property
+to "inline"*/
+/*inline-block elements: you are allowed to change width and have them be
+on the same line, we are going to treat images as if they're inline-block 
+elements*/
+/*display property "none" removes element from website.*/
+/*display property "hidden" hides the element but still shows the space it takes up.*/
+/*position: relative says how an element is positioned relative to what its position
+would have been if it were static. Defined by top, bottom, left, right.
+Doesn't affect position of other elements on screen.*/
+/*position: absolute positions an element relative to its parent.
+Does affect the flow of the html.*/
+/*position: fixed fixes the position of an element on the screen relative to the body.
+This is used with nav bars for example.*/
+/*text-align property has to be set inside the parent container.
+If it's a block element with a set width, use margin: 0 auto 0 auto.*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
